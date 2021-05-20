@@ -1,0 +1,12 @@
+com\loginportal\utils\model\ActiveUser.class
+com\loginportal\utils\model\AccountStatus.class
+com\loginportal\utils\model\Deactivate.class
+com\loginportal\utils\model\Token.class
+com\loginportal\utils\model\Review.class
+com\loginportal\utils\model\SecurityAnswer.class
+com\loginportal\utils\model\LoginAttempts.class
+com\loginportal\utils\encoder\CustomPasswordEncoder.class
+com\loginportal\utils\model\User.class
+com\loginportal\utils\model\SecurityQuestion.class
+com\loginportal\utils\model\PasswordHistory.class
+com\loginportal\utils\App.class

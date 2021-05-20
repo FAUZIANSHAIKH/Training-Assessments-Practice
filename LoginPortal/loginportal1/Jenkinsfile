@@ -1,0 +1,94 @@
+pipeline {
+    agent any
+        stages {
+			stage('Clean Ports') {
+                steps {
+					//sh 'cd /var/lib/jenkins/workspace/loginPortal && sh ./stop_port.sh'
+                    echo 'This is the Clean Ports Stage'
+                }
+            }
+            stage('Build') {
+                steps {
+					sh 'mvn install:install-file -Dfile=/var/lib/jenkins/workspace/loginPortal/utils-0.0.1-SNAPSHOT.jar -DgroupId=com.loginportal -DartifactId=utils -Dversion=0.0.1-SNAPSHOT -Dpackaging=jar'
+                    echo 'This is the Build Stage'
+					sh 'cd MicroFrontEnd && sudo npm install && sudo npm run build'
+					sh 'cd ..'
+					echo 'Data Service'
+					//sh 'sudo mvn -f DataService/pom.xml clean install pmd:pmd sonar:sonar'
+					sh 'sudo mvn -f DataService/pom.xml clean install pmd:pmd'
+
+					echo 'Edit_Profile_Backend Service'
+					//sh 'sudo mvn -f Edit_Profile_Backend/pom.xml clean install pmd:pmd sonar:sonar'
+					sh 'sudo mvn -f Edit_Profile_Backend/pom.xml clean install pmd:pmd'
+					//sh 'cd Edit_Profile_Frontend && sudo npm install && sudo npm run build'
+					
+					echo 'UserConfirmation Backend'
+					//sh 'sudo mvn -f UserConfirmation_Backend/pom.xml clean install pmd:pmd sonar:sonar'
+					sh 'sudo mvn -f UserConfirmation_Backend/pom.xml clean install pmd:pmd'
+					//echo 'UserConfirmation Frontend'
+					//sh 'cd UserConfirmation_Frontend && sudo npm install && sudo npm run build'
+					
+					echo 'Register Backend'
+					//sh 'sudo mvn -f Register_Backend/pom.xml clean install pmd:pmd sonar:sonar'
+					sh 'sudo mvn -f Register_Backend/pom.xml clean install pmd:pmd'
+					//echo 'Register Frontend'
+					//sh 'cd Register_Frontend && sudo npm install && sudo npm run build'
+					
+					echo 'DeRegister Backend'
+					//sh 'sudo mvn -f DeRegister_Backend/pom.xml clean install pmd:pmd sonar:sonar'
+					sh 'sudo mvn -f DeRegister_Backend/pom.xml clean install pmd:pmd'
+					
+					echo 'DeleteUser Backend'
+					//sh 'sudo mvn -f DeleteUser_Backend/pom.xml clean install pmd:pmd sonar:sonar'
+					sh 'sudo mvn -f DeleteUser_Backend/pom.xml clean install pmd:pmd'
+
+					//echo 'Forgotpassword Backend'
+					//sh 'sudo mvn -f Forgotpassword_Backend/pom.xml clean install pmd:pmd sonar:sonar'
+					sh 'sudo mvn -f Forgotpassword_Backend/pom.xml clean install pmd:pmd'
+					//echo 'Forgotpassword Frontend'
+					//sh 'cd Forgotpassword_Frontend && sudo npm install && sudo npm run build'
+            
+					echo 'LoginService BackEnd'
+					//sh 'sudo mvn -f LoginService_Backend/pom.xml clean install pmd:pmd sonar:sonar'
+					sh 'sudo mvn -f LoginService_Backend/pom.xml clean install pmd:pmd'
+					//echo 'LoginService Frontend'
+					//sh 'cd LoginService_Frontend && sudo npm install && sudo npm run build'
+                
+					echo 'ChangePasswordService_Backend Service'
+					//sh 'sudo mvn -f ChangePasswordService_Backend/pom.xml clean install pmd:pmd sonar:sonar'
+					sh 'sudo mvn -f ChangePasswordService_Backend/pom.xml clean install pmd:pmd'
+					//sh 'cd ChangePasswordService_Frontend && sudo npm install && sudo npm run build'
+            
+					//echo 'Admin_Backend Service'
+					//sh 'sudo mvn -f Admin_Backend/pom.xml clean install pmd:pmd sonar:sonar'
+					sh 'sudo mvn -f Admin_Backend/pom.xml clean install pmd:pmd'
+					//sh 'cd Admin_Frontend && sudo npm install && sudo npm run build'
+					
+					
+					
+				}
+            }
+            stage('Test') {
+                steps {
+                    echo 'This is the Testing Stage'
+                }
+            }
+			
+			stage ('Code Review'){
+				steps {
+					sh 'cd /var/lib/apache-jmeter-5.1.1/bin/ && sudo ./jmeter.sh -Jjmeter.save.saveservice.output_format=xml -n -t /var/lib/test.jmx -l /var/lib/test.jtl'
+				   script {
+					step([$class: 'PmdPublisher', pattern: '**/target/pmd.xml'])
+					}
+				}
+			
+			}
+			
+            stage('Deploy') {
+                steps {
+                    echo 'This is the Deploy Stage'
+					sh 'cd /var/lib/jenkins/workspace/loginPortal && sudo sh ./deploy.sh'
+                }
+            }
+        }
+    }

@@ -1,0 +1,159 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Yet Another Node.js Blogg Application API",
+      "description": "Yet Another Node.js Blogg Application API",
+      "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+      }
+    },
+    "host": "localhost:8000",
+    "basePath": "/api/v1",
+    "tags": [
+      {
+        "name": "movies",
+        "description": "API for movies in the system"
+      }
+    ],
+    "schemes": [
+      "http"
+    ],
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ],
+    "paths": {
+      "/movies": {
+        "post": {
+          "tags": [
+            "Movies"
+          ],
+          "description": "Create new movie in system",
+          "parameters": [
+            {
+              "name": "movies",
+              "in": "body",
+              "description": "User that we want to create",
+              "schema": {
+                "$ref": "#/definitions/Movie"
+              }
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "New movie is created",
+              "schema": {
+                "$ref": "#/definitions/Movie"
+              }
+            }
+          }
+        },
+        "get": {
+          "tags": [
+            "Movie"
+          ],
+          "summary": "Get all movies in system",
+          "responses": {
+            "200": {
+              "description": "OK",
+              "schema": {
+                "$ref": "#/definitions/Movie"
+              }
+            }
+          }
+        }
+      },
+      "/movies/{_Id}": {
+        "parameters": [
+          {
+            "name": "_Id",
+            "in": "path",
+            "required": true,
+            "description": "ID of user that we want to find",
+            "type": "string"
+          }
+        ],
+        "get": {
+          "tags": [
+            "Movie"
+          ],
+          "summary": "Get user with given ID",
+          "responses": {
+            "200": {
+              "description": "Movie is found",
+              "schema": {
+                "$ref": "#/definitions/Movie"
+              }
+            }
+          }
+        },
+        "delete": {
+          "summary": "Delete user with given ID",
+          "tags": [
+            "Movie"
+          ],
+          "responses": {
+            "200": {
+              "description": "Movie is deleted",
+              "schema": {
+                "$ref": "#/definitions/Movie"
+              }
+            }
+          }
+        },
+        "put": {
+          "summary": "Update movie with give ID",
+          "tags": [
+            "Movie"
+          ],
+          "parameters": [
+            {
+              "name": "movie",
+              "in": "body",
+              "description": "Movie with new values of properties",
+              "schema": {
+                "$ref": "#/definitions/Movie"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Movie is updated",
+              "schema": {
+                "$ref": "#/definitions/Movie"
+              }
+            }
+          }
+        }
+      }
+    },
+    "definitions": {
+      "Movie": {
+        "required": [
+          "name",
+          "_id"
+        ],
+        "properties": {
+          "_id": {
+            "type": "string",
+            "uniqueItems": true
+          },
+          "name": {
+            "type": "string",
+            "uniqueItems": true
+          }
+        }
+      },
+      "Movie": {
+        "type": "array",
+        "$ref": "#/definitions/Movie"
+      }
+    }
+  }

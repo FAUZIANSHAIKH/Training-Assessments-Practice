@@ -1,0 +1,504 @@
+import React, { Component } from 'react'
+import Recaptcha from 'react-recaptcha';
+import Axios from '../../Axios';
+import GoogleLogin from 'react-google-login';
+import history from '../../history';
+import { Link } from 'react-router-dom';
+import DatePicker from "react-datepicker";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { userDataEventHandler, passwordEventHandler, selectBoxEventHandler, securityAnswers } from '../../actions/registerAction';
+
+
+const emailRegex = RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)
+const phoneNoRegex = RegExp(/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/);
+const passwordRegex = RegExp(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*_#?&])[A-Za-z\d@$!%_#*?&]{8,15}$/);
+
+
+class GoogleForm extends Component {
+
+    constructor(props) {
+        super(props);
+        console.log(this.props);
+        this.state = {
+            confirmPassword: "",
+            gender: ['Male', 'Female', 'Other'],
+            maritalStatus: ['Single', 'Married', 'Widowed', 'Divorced', 'Separated'],
+            formErrors: {
+                firstName: "",
+                lastName: "",
+                emailID: "",
+                phoneNo: "",
+                password: "",
+                confirmPassword: "",
+                securityAnsID1: "",
+                securityAnsID2: ""
+            }
+
+        }
+    }
+
+    componentWillMount() {
+        this.props.state.users.firstName = this.props.data.firstName;
+        this.props.state.users.lastName = this.props.data.lastName;
+        this.props.state.users.emailID = this.props.data.email;
+
+    }
+
+    formValid() {
+        let valid = true;
+        let formErrors = this.state.formErrors;
+
+        Object.values(formErrors).forEach(value => {
+            value.length > 0 && (valid = false);
+        });
+
+        return valid;
+    }
+
+    validate = (name, value) => {
+        let formErrors = this.state.formErrors;
+
+        switch (name) {
+            case 'firstName':
+                //console.log(formErrors.firstName)
+                formErrors.firstName = (value.length < 5 || value.length > 15) ?
+                    "*FirstName should be between 5 to 15 characters" : "";
+
+                break;
+            case 'lastName':
+                formErrors.lastName = (value.length < 5 || value.length > 15) ?
+                    "*LastName should be between 5 to 15 characters" : "";
+                break;
+            case 'phoneNo':
+                formErrors.phoneNo = (phoneNoRegex.test(value) && value.length > 0) ?
+                    '' : "*Invalid Phone Numeber";
+                break;
+            case 'pwd1':
+                formErrors.password = (value.length === 0 || passwordRegex.test(value)) ?
+                    '' : "*Password should be minimum eight and maximum 10 characters, at least one uppercase letter, one lowercase letter, one number and one special character";
+
+                break;
+            case 'confirmPassword':
+                formErrors.confirmPassword = (value === this.props.state.users.passwordHistory.pwd1) ?
+                    '' : "*Both Password and Confirm Password Should match";
+
+                break;
+            case 'securityAnsID1':
+                formErrors.securityAnsID1 = (this.props.state.users.passwordHistory.pwd1.length === 0 || value.length > 0) ?
+                    '' : "*Answer the Security Question One";
+                break;
+            case 'securityAnsID2':
+                formErrors.securityAnsID2 = (this.props.state.users.passwordHistory.pwd1.length === 0 || value.length > 0) ?
+                    '' : "*Answer the Security Question Two"
+                break;
+            default:
+                break;
+
+        }
+        this.setState({ formErrors });
+    }
+
+    register = (event) => {
+
+        Object.keys(this.state.formErrors).forEach(key => {
+            //console.log(this.state.formErrors[key]);
+            console.log(key + " " + this.props.state.users[key])
+            if (key !== 'confirmPassword' && key !== 'securityAnsID1' && key !== 'securityAnsID2' && key !== 'password')
+                this.validate(key, this.props.state.users[key]);
+
+
+
+        });
+        this.validate('pwd1', this.props.state.users.passwordHistory.pwd1);
+        this.validate('securityAnsID1', this.props.state.users.securityAns.securityAnsID1);
+        this.validate('securityAnsID2', this.props.state.users.securityAns.securityAnsID2);
+        this.validate('confirmPassword', this.state.confirmPassword);
+
+
+        // // code to validate all input cases
+        if (this.formValid() === true) {
+            console.log("SUCCESS");
+            // alert('success');
+            Axios.auth.postusers(this.props.state.users)
+                .then(response => {
+                    console.log(response);
+                    if (response.data.status === 403) {
+                        // User already exists
+                        //history.push('/error');
+                        toast.warn('User Already Exists', {
+                            position: "top-center",
+                            autoClose: 2000,
+                            hideProgressBar: true,
+                            closeOnClick: true,
+                            pauseOnHover: true,
+                            draggable: true,
+                        });
+                        console.log("Error")
+                    }
+                    else if (response.data.status === 200) {
+                        toast.success('Successfully Registered', {
+                            position: "top-center",
+                            autoClose: 2000,
+                            hideProgressBar: true,
+                            closeOnClick: true,
+                            pauseOnHover: true,
+                            draggable: true,
+                        });
+                        window.location.replace('http://ec2-18-235-29-68.compute-1.amazonaws.com:8006/#/checkmail')
+                        console.log("sucess");
+                        // Axios.auth.userConfirmation("/sendmail", { userID: 12312 })
+                        //     .then(response => {
+                        //         console.log(response);
+                        //     });
+
+                    }
+                }).catch(error => {
+                    if (error.response)
+                        console.log(error.response);
+                });
+        }
+        else {
+            toast.error('Fill all the fields before submitting', {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: true,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+            });
+            console.log("ERRORS");
+        }
+
+
+
+    }
+
+
+
+    // firstName / lastname / email / phonenumber enters in the input box will be fired 
+    userDataEventHandler = (event) => {
+        let newUsers = {};
+        this.props.state.users[event.target.name] = event.target.value;
+        newUsers = { ...this.props.state.users };
+        this.props.userDataEventHandler(newUsers);
+        console.log(this.props.state)
+        const { name, value } = event.target;
+        this.validate(name, value);
+
+    }
+
+    // password enters in the input box will be fired 
+    passwordEventHandler = (event) => {
+        const { name, value } = event.target;
+        console.log(name + " " + value);
+        this.props.passwordEventHandler(value);
+
+        this.validate(name, value);
+
+    }
+
+    // confirmnpassword enters in the input box will be fired 
+    confirmPasswordEventHandler = (event) => {
+        const { name, value } = event.target;
+        console.log(name + " " + value);
+        this.validate(name, value);
+        this.setState({ confirmPassword: value });
+    }
+
+    selectBoxEventHandler = (event) => {
+        const { name, value } = event.target;
+        this.props.selectBoxEventHandler({ name: name, value: value });
+    }
+
+    // security answer enters in the input box will be called
+    securityAnswers = (answer, answerID) => {
+
+        let data = {
+            answerID: answerID,
+            answer: answer
+        }
+
+        this.validate(answerID, answer);
+
+        this.props.securityAnswers(data);
+    }
+
+    recaptchaLoaded = () => {
+        console.log('captcha has loaded');
+    }
+
+    verifyCallback = (response) => {
+        // if (response) {
+        //     setState({ captchaver: true });
+        // }
+    }
+
+    responseGoogleSuccess = (response) => {
+        console.log(response);
+        this.setState({ users: { ...this.state.users, emailID: response.profileObj.email, firstName: response.profileObj.givenName, lastName: response.profileObj.familyName } }
+            , () => {
+                this.setState({ ...this.state, firstnamereadonly: true, lastnamereadonly: true, emailreadonly: true });
+            });
+    }
+
+    responseGoogleFailure = (response) => {
+        console.log(response);
+    }
+
+
+    render() {
+        const { formErrors } = this.state;
+        return (
+            <div>
+
+                <div className="card bg-light">
+                    <article className="card-body mx-auto" style={{ minWidth: '500px', maxWidth: '500px' }}>
+                        <h4 className="card-title mt-3 text-center">Create Account</h4>
+                        <p className="text-center">Get started with your free account</p>
+
+                        {/* <div className="text-center">
+                            <GoogleLogin
+                                clientId={'839355568499-6ts1o97r7bk5shr369gdrhmtvebmhrkb.apps.googleusercontent.com'}
+                                buttonText="Sign Up With Google"
+
+                                onSuccess={this.responseGoogleSuccess}
+                                onFailure={this.responseGoogleFailure}
+                                cookiePolicy={'single_host_origin'} />
+                        </div>
+
+                        <p className="divider-text">
+                            <span className="bg-light">OR</span>
+                        </p> */}
+
+                        <form onSubmit={(e) => { this.register(); e.preventDefault(); }}>
+
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-user"></i> </span>
+                                </div>
+                                <input type="text" className="form-control" placeholder="FirstName" name="firstName"
+                                    noValidate
+                                    onChange={this.userDataEventHandler}
+                                    value={this.props.state.users.firstName}
+                                />
+                            </div>
+                            <p className="form-error">{formErrors.firstName.length > 0 && (
+                                <span>{formErrors.firstName}</span>
+                            )}</p>
+
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-user"></i> </span>
+                                </div>
+                                <input type="text" className="form-control" placeholder="LastName" name="lastName"
+
+                                    onChange={this.userDataEventHandler}
+                                    value={this.props.state.users.lastName}
+                                />
+                            </div>
+                            <p className="form-error">
+                                {formErrors.lastName.length > 0 && (
+                                    <span>{formErrors.lastName}</span>
+                                )}
+                            </p>
+
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-envelope"></i> </span>
+                                </div>
+
+                                <input type="email" className="form-control" placeholder="Email address" name="emailID"
+                                    readOnly
+                                    onChange={this.userDataEventHandler}
+                                    value={this.props.state.users.emailID}
+                                />
+                            </div>
+                            <p className="form-error">
+                                {formErrors.emailID.length > 0 && (
+                                    <span>{formErrors.emailID}</span>
+                                )}
+                            </p>
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-phone"></i> </span>
+                                </div>
+                                <input type="number" className="form-control" placeholder="Phone Number" name="phoneNo"
+
+                                    onChange={this.userDataEventHandler}
+                                    value={this.props.state.users.phoneNo}
+                                />
+                            </div>
+                            <p className="form-error">
+                                {formErrors.phoneNo.length > 0 && (
+                                    <span>{formErrors.phoneNo}</span>
+                                )}
+                            </p>
+
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-lock"></i> </span>
+                                </div>
+                                <input type="password" className="form-control" placeholder="Password" name="pwd1"
+
+                                    onChange={this.passwordEventHandler}
+                                    value={this.props.state.users.passwordHistory.pwd1}
+                                />
+                            </div>
+                            <p className="form-error">
+                                {formErrors.password.length > 0 && (
+                                    <span>{formErrors.password}</span>
+                                )}
+                            </p>
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-lock"></i> </span>
+                                </div>
+                                <input type="password" className="form-control" placeholder="Confirm Password" name="confirmPassword"
+
+                                    onChange={this.confirmPasswordEventHandler}
+                                />
+                            </div>
+                            <p className="form-error">
+                                {formErrors.confirmPassword.length > 0 && (
+                                    <span>{formErrors.confirmPassword}</span>
+                                )}
+                            </p>
+
+
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-user"></i> </span>
+                                </div>
+                                <select className="form-control" name="gender"
+                                    onChange={(e) => this.selectBoxEventHandler(e)}>
+                                    {this.state.gender.map((gender, index) =>
+                                        <option key={index} value={gender}> {gender} </option>
+                                    )}
+                                </select>
+                            </div>
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-user"></i> </span>
+                                </div>
+                                <select className="form-control" name="maritalStatus"
+                                    onChange={(e) => this.selectBoxEventHandler(e)}>
+                                    {this.state.maritalStatus.map((status, index) =>
+                                        <option key={index} value={status}> {status} </option>
+                                    )}
+                                </select>
+                            </div>
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-building"></i> </span>
+                                </div>
+                                <input type="text" className="form-control" placeholder="Profession" name="profession"
+                                    onChange={this.userDataEventHandler}
+                                    value={this.props.state.users.profession}
+                                />
+                            </div>
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-user"></i> </span>
+                                </div>
+                                <input className="form-control" type="date" name="dateOfBirth" placeholder="Date Of Birth"
+                                    onChange={this.userDataEventHandler}
+                                    value={this.props.state.users.dateOfBirth}
+
+                                />
+                            </div>
+
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-question"></i> </span>
+                                </div>
+                                <select className="form-control security" name="securityQueID1"
+                                    onChange={(e) => this.props.filterQuestion(e.target.value, 1)}>
+                                    {this.props.state.securityQuestion1.map(questions =>
+                                        <option key={questions.questionID} value={questions.questionID}> {questions.question} </option>
+                                    )}
+                                </select>
+                                <input type="text" className="form-control" name="securityAnsID1"
+                                    onChange={(e) => this.securityAnswers(e.target.value, "securityAnsID1")}
+                                    value={this.props.state.users.securityAns.securityAnsID1}
+                                />
+                            </div>
+                            <p className="form-error">
+                                {formErrors.securityAnsID1.length > 0 && (
+                                    <span>{formErrors.securityAnsID1}</span>
+                                )}
+                            </p>
+
+                            <div className="form-group input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text"> <i className="fa fa-question"></i> </span>
+                                </div>
+                                <select className="form-control security" name="securityQueID2"
+                                    onChange={(e) => this.props.filterQuestion(e.target.value, 2)}>
+                                    {this.props.state.securityQuestion2.map(questions =>
+                                        <option key={questions.questionID} value={questions.questionID}>{questions.question}</option>
+                                    )}
+                                </select>
+                                <input type="text" name="securityAnsID2" className="form-control"
+
+                                    onChange={(e) => this.securityAnswers(e.target.value, "securityAnsID2")}
+                                    value={this.props.state.users.securityAns.securityAnsID2}
+                                />
+
+                            </div>
+                            <p className="form-error">
+                                {formErrors.securityAnsID2.length > 0 && (
+                                    <span>{formErrors.securityAnsID2}</span>
+                                )}
+                            </p>
+
+                            <div className="form-group">
+                                <button type="submit" className="btn btn-primary btn-block"> Create Account </button>
+                            </div>
+
+                            <p className="text-center">Have an account? <Link to="/">Log In</Link> </p>
+
+                        </form>
+
+
+                    </article>
+                </div>
+
+            </div>
+
+        );
+
+
+    }
+
+
+
+}
+
+GoogleForm.propTypes = {
+    userDataEventHandler: PropTypes.func.isRequired,
+    passwordEventHandler: PropTypes.func.isRequired,
+    selectBoxEventHandler: PropTypes.func.isRequired,
+    securityAnswers: PropTypes.func.isRequired,
+    state: PropTypes.object.isRequired
+}
+
+const mapStateToProps = state => ({
+    state: state.register
+})
+
+export default connect(mapStateToProps, { userDataEventHandler, passwordEventHandler, selectBoxEventHandler, securityAnswers })(GoogleForm);

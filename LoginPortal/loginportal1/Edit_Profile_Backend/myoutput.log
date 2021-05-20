@@ -1,0 +1,1271 @@
+2019-08-29 12:52:37  INFO - Starting ServiceApplication on WKWIN1106332 with PID 16312 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 12:52:37  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 12:52:37  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 12:52:37  INFO - Finished Spring Data repository scanning in 35ms. Found 1 repository interfaces.
+2019-08-29 12:52:37  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eeff1c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 12:52:38  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 12:52:38  INFO - Starting service [Tomcat]
+2019-08-29 12:52:38  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 12:52:38  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 12:52:38  INFO - Root WebApplicationContext: initialization completed in 943 ms
+2019-08-29 12:52:38  INFO - HikariPool-1 - Starting...
+2019-08-29 12:52:38  INFO - HikariPool-1 - Start completed.
+2019-08-29 12:52:38  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 12:52:38  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 12:52:38  INFO - HHH000206: hibernate.properties not found
+2019-08-29 12:52:38  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 12:52:39  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 12:52:39  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 12:52:39  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 12:52:39  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 12:52:39  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 12:52:39  INFO - Started ServiceApplication in 3.035 seconds (JVM running for 3.717)
+2019-08-29 12:53:49  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 12:53:49  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 12:53:49  INFO - Completed initialization in 5 ms
+2019-08-29 12:53:49  INFO - Entered In FindById Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 12:53:49  INFO - User object created In FindById Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 12:53:49  INFO - Exiting FindById Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 12:53:54  INFO - NULL userID passed in FindById Method  ResponseCode:400 Class&Function:com.example.controller.ProfileController.findById(ProfileController.java:61)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 12:55:00  INFO - Application shutdown requested.
+2019-08-29 12:55:00  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 12:55:00  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 12:55:00  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 12:55:00  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 12:55:05  INFO - Starting ServiceApplication on WKWIN1106332 with PID 6812 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 12:55:05  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 12:55:05  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 12:55:05  INFO - Finished Spring Data repository scanning in 30ms. Found 1 repository interfaces.
+2019-08-29 12:55:06  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$355816de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 12:55:06  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 12:55:06  INFO - Starting service [Tomcat]
+2019-08-29 12:55:06  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 12:55:06  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 12:55:06  INFO - Root WebApplicationContext: initialization completed in 895 ms
+2019-08-29 12:55:06  INFO - HikariPool-1 - Starting...
+2019-08-29 12:55:07  INFO - HikariPool-1 - Start completed.
+2019-08-29 12:55:07  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 12:55:07  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 12:55:07  INFO - HHH000206: hibernate.properties not found
+2019-08-29 12:55:07  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 12:55:07  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 12:55:07  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 12:55:08  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 12:55:08  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 12:55:08  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 12:55:08  INFO - Started ServiceApplication in 3.047 seconds (JVM running for 3.834)
+2019-08-29 12:55:14  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 12:55:14  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 12:55:14  INFO - Completed initialization in 6 ms
+2019-08-29 12:55:14  INFO - Entered In FindById Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 12:55:14  INFO - User object created In FindById Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 12:55:14  INFO - Exiting FindById Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 12:55:17  INFO - userID passed in FindById Method does not exist  ResponseCode:400 Class&Function:com.example.controller.ProfileController.findById(ProfileController.java:61)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 13:05:48  INFO - Application shutdown requested.
+2019-08-29 13:05:48  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 13:05:48  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 13:05:48  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 13:05:48  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 13:05:52  INFO - Starting ServiceApplication on WKWIN1106332 with PID 5608 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 13:05:52  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 13:05:52  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 13:05:52  INFO - Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-08-29 13:05:53  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$263f7a7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 13:05:53  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 13:05:53  INFO - Starting service [Tomcat]
+2019-08-29 13:05:53  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 13:05:53  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 13:05:53  INFO - Root WebApplicationContext: initialization completed in 982 ms
+2019-08-29 13:05:53  INFO - HikariPool-1 - Starting...
+2019-08-29 13:05:54  INFO - HikariPool-1 - Start completed.
+2019-08-29 13:05:54  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 13:05:54  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 13:05:54  INFO - HHH000206: hibernate.properties not found
+2019-08-29 13:05:54  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 13:05:54  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 13:05:54  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 13:05:55  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 13:05:55  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 13:05:55  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 13:05:55  INFO - Started ServiceApplication in 3.206 seconds (JVM running for 3.98)
+2019-08-29 13:06:11  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 13:06:11  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 13:06:11  INFO - Completed initialization in 6 ms
+2019-08-29 13:06:11 ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method NoSuchElementException(Optional<User>, String, int, String, String) in the type UserLogs is not applicable for the arguments (String, int, String, String)
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	The method NoSuchElementException(Optional<User>, String, int, String, String) in the type UserLogs is not applicable for the arguments (String, int, String, String)
+
+	at com.example.controller.ProfileController.findById(ProfileController.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-29 13:07:32  INFO - Application shutdown requested.
+2019-08-29 13:07:32  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 13:07:32  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 13:07:32  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 13:07:32  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 13:07:37  INFO - Starting ServiceApplication on WKWIN1106332 with PID 26568 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 13:07:37  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 13:07:37  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 13:07:37  INFO - Finished Spring Data repository scanning in 30ms. Found 1 repository interfaces.
+2019-08-29 13:07:38  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$619bde76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 13:07:38  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 13:07:38  INFO - Starting service [Tomcat]
+2019-08-29 13:07:38  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 13:07:38  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 13:07:38  INFO - Root WebApplicationContext: initialization completed in 967 ms
+2019-08-29 13:07:38  INFO - HikariPool-1 - Starting...
+2019-08-29 13:07:39  INFO - HikariPool-1 - Start completed.
+2019-08-29 13:07:39  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 13:07:39  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 13:07:39  INFO - HHH000206: hibernate.properties not found
+2019-08-29 13:07:39  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 13:07:39  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 13:07:39  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 13:07:40  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 13:07:40  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 13:07:40  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 13:07:40  INFO - Started ServiceApplication in 3.019 seconds (JVM running for 3.727)
+2019-08-29 13:07:57  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 13:07:57  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 13:07:57  INFO - Completed initialization in 7 ms
+2019-08-29 13:07:57 ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.utils.logging.UserLogs.NoSuchElementException(UserLogs.java:44)
+	at com.example.controller.ProfileController.findById(ProfileController.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-29 14:15:28  WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m49s237ms140µs200ns).
+2019-08-29 14:26:50  INFO - Application shutdown requested.
+2019-08-29 14:26:50  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:26:50  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:26:50  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 14:26:50  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 14:26:55  INFO - Starting ServiceApplication on WKWIN1106332 with PID 18024 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 14:26:55  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 14:26:55  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 14:26:55  INFO - Finished Spring Data repository scanning in 31ms. Found 1 repository interfaces.
+2019-08-29 14:26:55  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93d5e69c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 14:26:56  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 14:26:56  INFO - Starting service [Tomcat]
+2019-08-29 14:26:56  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 14:26:56  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 14:26:56  INFO - Root WebApplicationContext: initialization completed in 949 ms
+2019-08-29 14:26:56  INFO - HikariPool-1 - Starting...
+2019-08-29 14:26:56  INFO - HikariPool-1 - Start completed.
+2019-08-29 14:26:56  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 14:26:56  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 14:26:56  INFO - HHH000206: hibernate.properties not found
+2019-08-29 14:26:57  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 14:26:57  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 14:26:57  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:26:57  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:26:57  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 14:26:58  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 14:26:58  INFO - Started ServiceApplication in 3.168 seconds (JVM running for 3.828)
+2019-08-29 14:29:07  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 14:29:07  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 14:29:07  INFO - Completed initialization in 7 ms
+2019-08-29 14:29:07  INFO - Entered In FindById Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:29:07  INFO - User object created In FindById Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:29:07  INFO - Exiting FindById Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:29:11 ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.utils.logging.UserLogs.NoSuchElementException(UserLogs.java:44)
+	at com.example.controller.ProfileController.findById(ProfileController.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-29 14:32:24  INFO - Application shutdown requested.
+2019-08-29 14:32:24  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:32:24  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:32:24  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 14:32:24  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 14:32:29  INFO - Starting ServiceApplication on WKWIN1106332 with PID 4900 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 14:32:29  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 14:32:29  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 14:32:29  INFO - Finished Spring Data repository scanning in 31ms. Found 1 repository interfaces.
+2019-08-29 14:32:29  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9da210a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 14:32:29  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 14:32:29  INFO - Starting service [Tomcat]
+2019-08-29 14:32:29  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 14:32:29  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 14:32:29  INFO - Root WebApplicationContext: initialization completed in 904 ms
+2019-08-29 14:32:30  INFO - HikariPool-1 - Starting...
+2019-08-29 14:32:30  INFO - HikariPool-1 - Start completed.
+2019-08-29 14:32:30  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 14:32:30  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 14:32:30  INFO - HHH000206: hibernate.properties not found
+2019-08-29 14:32:30  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 14:32:30  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 14:32:31  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:32:31  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:32:31  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 14:32:31  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 14:32:31  INFO - Started ServiceApplication in 2.946 seconds (JVM running for 3.655)
+2019-08-29 14:45:38  INFO - Application shutdown requested.
+2019-08-29 14:45:38  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:45:38  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:45:38  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 14:45:38  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 14:45:43  INFO - Starting ServiceApplication on WKWIN1106332 with PID 8340 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 14:45:43  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 14:45:44  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 14:45:44  INFO - Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-08-29 14:45:44  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2925879b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 14:45:44  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 14:45:44  INFO - Starting service [Tomcat]
+2019-08-29 14:45:44  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 14:45:45  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 14:45:45  INFO - Root WebApplicationContext: initialization completed in 1037 ms
+2019-08-29 14:45:45  INFO - HikariPool-1 - Starting...
+2019-08-29 14:45:45  INFO - HikariPool-1 - Start completed.
+2019-08-29 14:45:45  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 14:45:45  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 14:45:45  INFO - HHH000206: hibernate.properties not found
+2019-08-29 14:45:45  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 14:45:45  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 14:45:46  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:45:46  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:45:46  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 14:45:46  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 14:45:46  INFO - Started ServiceApplication in 3.14 seconds (JVM running for 4.033)
+2019-08-29 14:46:02  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 14:46:02  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 14:46:02  INFO - Completed initialization in 6 ms
+2019-08-29 14:46:03  INFO - Entered In updateUser Method  RequestCode:210  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:46:03  INFO - User object created In updateUser Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:46:04  INFO - Exiting UpdateUser Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:46:56  INFO - Application shutdown requested.
+2019-08-29 14:46:56  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:46:56  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:46:56  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 14:46:56  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 14:47:06  INFO - Starting ServiceApplication on WKWIN1106332 with PID 22732 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 14:47:06  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 14:47:06  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 14:47:06  INFO - Finished Spring Data repository scanning in 36ms. Found 1 repository interfaces.
+2019-08-29 14:47:07  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c075122] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 14:47:07  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 14:47:07  INFO - Starting service [Tomcat]
+2019-08-29 14:47:07  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 14:47:07  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 14:47:07  INFO - Root WebApplicationContext: initialization completed in 1126 ms
+2019-08-29 14:47:07  INFO - HikariPool-1 - Starting...
+2019-08-29 14:47:08  INFO - HikariPool-1 - Start completed.
+2019-08-29 14:47:08  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 14:47:08  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 14:47:08  INFO - HHH000206: hibernate.properties not found
+2019-08-29 14:47:08  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 14:47:08  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 14:47:09  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:47:09  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:47:09  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 14:47:09  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 14:47:09  INFO - Started ServiceApplication in 3.731 seconds (JVM running for 4.639)
+2019-08-29 14:48:04  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 14:48:04  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 14:48:04  INFO - Completed initialization in 5 ms
+2019-08-29 14:48:05  INFO - Entered In updateUser Method  RequestCode:210  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:48:05  INFO - User object created In updateUser Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:48:07  INFO - Exiting UpdateUser Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:49:58  INFO - Application shutdown requested.
+2019-08-29 14:49:58  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:49:58  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:49:58  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 14:49:58  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 14:50:03  INFO - Starting ServiceApplication on WKWIN1106332 with PID 380 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 14:50:03  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 14:50:03  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 14:50:03  INFO - Finished Spring Data repository scanning in 35ms. Found 1 repository interfaces.
+2019-08-29 14:50:04  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5df777a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 14:50:04  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 14:50:04  INFO - Starting service [Tomcat]
+2019-08-29 14:50:04  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 14:50:04  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 14:50:04  INFO - Root WebApplicationContext: initialization completed in 1037 ms
+2019-08-29 14:50:04  INFO - HikariPool-1 - Starting...
+2019-08-29 14:50:05  INFO - HikariPool-1 - Start completed.
+2019-08-29 14:50:05  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 14:50:05  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 14:50:05  INFO - HHH000206: hibernate.properties not found
+2019-08-29 14:50:05  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 14:50:05  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 14:50:05  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:50:06  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:50:06  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 14:50:06  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 14:50:06  INFO - Started ServiceApplication in 3.188 seconds (JVM running for 4.037)
+2019-08-29 14:50:33  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 14:50:33  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 14:50:33  INFO - Completed initialization in 5 ms
+2019-08-29 14:50:33  INFO - Entered In updateUser Method  RequestCode:210  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:50:33  INFO - User object created In updateUser Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:50:35  INFO - Exiting UpdateUser Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:54:26  INFO - Application shutdown requested.
+2019-08-29 14:54:26  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:54:26  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:54:26  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 14:54:26  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 14:54:31  INFO - Starting ServiceApplication on WKWIN1106332 with PID 6072 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 14:54:31  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 14:54:31  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 14:54:31  INFO - Finished Spring Data repository scanning in 33ms. Found 1 repository interfaces.
+2019-08-29 14:54:32  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80b6f938] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 14:54:32  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 14:54:32  INFO - Starting service [Tomcat]
+2019-08-29 14:54:32  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 14:54:32  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 14:54:32  INFO - Root WebApplicationContext: initialization completed in 1036 ms
+2019-08-29 14:54:32  INFO - HikariPool-1 - Starting...
+2019-08-29 14:54:33  INFO - HikariPool-1 - Start completed.
+2019-08-29 14:54:33  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 14:54:33  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 14:54:33  INFO - HHH000206: hibernate.properties not found
+2019-08-29 14:54:33  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 14:54:33  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 14:54:33  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:54:34  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:54:34  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 14:54:34  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 14:54:34  INFO - Started ServiceApplication in 3.156 seconds (JVM running for 4.031)
+2019-08-29 14:54:49  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 14:54:49  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 14:54:49  INFO - Completed initialization in 8 ms
+2019-08-29 14:54:49  INFO - Entered In updateUser Method  RequestCode:210  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:54:49  INFO - User object created In updateUser Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:54:51  INFO - Exiting UpdateUser Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:57:17  INFO - Application shutdown requested.
+2019-08-29 14:57:17  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:57:17  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:57:17  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 14:57:17  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 14:57:22  INFO - Starting ServiceApplication on WKWIN1106332 with PID 8044 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 14:57:22  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 14:57:22  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 14:57:22  INFO - Finished Spring Data repository scanning in 55ms. Found 1 repository interfaces.
+2019-08-29 14:57:23  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2cd7f8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 14:57:23  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 14:57:23  INFO - Starting service [Tomcat]
+2019-08-29 14:57:23  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 14:57:23  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 14:57:23  INFO - Root WebApplicationContext: initialization completed in 1115 ms
+2019-08-29 14:57:23  INFO - HikariPool-1 - Starting...
+2019-08-29 14:57:24  INFO - HikariPool-1 - Start completed.
+2019-08-29 14:57:24  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 14:57:24  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 14:57:24  INFO - HHH000206: hibernate.properties not found
+2019-08-29 14:57:24  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 14:57:24  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 14:57:25  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 14:57:25  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 14:57:25  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 14:57:25  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 14:57:25  INFO - Started ServiceApplication in 3.325 seconds (JVM running for 4.25)
+2019-08-29 14:57:34  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 14:57:34  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 14:57:34  INFO - Completed initialization in 8 ms
+2019-08-29 14:57:35  INFO - Entered In updateUser Method  RequestCode:210  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:57:35  INFO - User object created In updateUser Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 14:57:37  INFO - Exiting UpdateUser Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:02:52  WARN - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.controller.ProfileController.otp(java.lang.String)]
+2019-08-29 15:03:41 ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]] with root cause
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:451)
+	at org.json.JSONObject.<init>(JSONObject.java:195)
+	at org.json.JSONObject.<init>(JSONObject.java:319)
+	at com.example.controller.ProfileController.otp(ProfileController.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-29 15:04:12 ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.json.JSONException: Expected a ':' after a key at 39 [character 40 line 1]] with root cause
+org.json.JSONException: Expected a ':' after a key at 39 [character 40 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:451)
+	at org.json.JSONObject.<init>(JSONObject.java:213)
+	at org.json.JSONObject.<init>(JSONObject.java:319)
+	at com.example.controller.ProfileController.otp(ProfileController.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-29 15:19:59  INFO - Application shutdown requested.
+2019-08-29 15:19:59  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:19:59  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:19:59  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:19:59  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:20:03  INFO - Starting ServiceApplication on WKWIN1106332 with PID 6972 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:20:03  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:20:03  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:20:03  INFO - Finished Spring Data repository scanning in 33ms. Found 1 repository interfaces.
+2019-08-29 15:20:03  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$289ce9e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:20:03  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:20:03  INFO - Starting service [Tomcat]
+2019-08-29 15:20:03  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:20:04  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:20:04  INFO - Root WebApplicationContext: initialization completed in 1038 ms
+2019-08-29 15:20:04  INFO - HikariPool-1 - Starting...
+2019-08-29 15:20:04  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:20:04  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:20:04  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:20:04  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:20:04  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:20:05  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:20:05  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:20:05  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:20:05  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:20:05  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:20:05  INFO - Started ServiceApplication in 3.143 seconds (JVM running for 3.989)
+2019-08-29 15:20:38  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:20:38  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:20:38  INFO - Completed initialization in 8 ms
+2019-08-29 15:20:38  INFO - Entered In updateUser Method  RequestCode:210  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:20:38  INFO - User object created In updateUser Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:20:40  INFO - Exiting UpdateUser Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:24:34  INFO - Application shutdown requested.
+2019-08-29 15:24:34  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:24:34  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:24:34  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:24:34  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:24:37  INFO - Starting ServiceApplication on WKWIN1106332 with PID 24656 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:24:37  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:24:38  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:24:38  INFO - Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-08-29 15:24:38  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a6feae4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:24:38  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:24:38  INFO - Starting service [Tomcat]
+2019-08-29 15:24:38  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:24:38  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:24:38  INFO - Root WebApplicationContext: initialization completed in 1029 ms
+2019-08-29 15:24:39  INFO - HikariPool-1 - Starting...
+2019-08-29 15:24:39  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:24:39  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:24:39  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:24:39  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:24:39  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:24:39  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:24:40  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:24:40  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:24:40  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:24:40  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:24:40  INFO - Started ServiceApplication in 3.161 seconds (JVM running for 4.045)
+2019-08-29 15:24:49  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:24:49  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:24:49  INFO - Completed initialization in 8 ms
+2019-08-29 15:27:26  INFO - Application shutdown requested.
+2019-08-29 15:27:26  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:27:26  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:27:26  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:27:26  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:27:29  INFO - Starting ServiceApplication on WKWIN1106332 with PID 22116 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:27:29  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:27:30  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:27:30  INFO - Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-08-29 15:27:30  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$224c0262] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:27:30  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:27:30  INFO - Starting service [Tomcat]
+2019-08-29 15:27:30  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:27:30  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:27:30  INFO - Root WebApplicationContext: initialization completed in 1039 ms
+2019-08-29 15:27:30  INFO - HikariPool-1 - Starting...
+2019-08-29 15:27:31  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:27:31  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:27:31  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:27:31  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:27:31  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:27:31  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:27:32  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:27:32  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:27:32  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:27:32  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:27:32  INFO - Started ServiceApplication in 3.195 seconds (JVM running for 4.078)
+2019-08-29 15:27:48  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:27:48  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:27:48  INFO - Completed initialization in 6 ms
+2019-08-29 15:28:25  INFO - Application shutdown requested.
+2019-08-29 15:28:25  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:28:25  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:28:25  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:28:25  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:28:28  INFO - Starting ServiceApplication on WKWIN1106332 with PID 20692 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:28:28  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:28:28  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:28:28  INFO - Finished Spring Data repository scanning in 35ms. Found 1 repository interfaces.
+2019-08-29 15:28:29  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92b0c093] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:28:29  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:28:29  INFO - Starting service [Tomcat]
+2019-08-29 15:28:29  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:28:29  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:28:29  INFO - Root WebApplicationContext: initialization completed in 1031 ms
+2019-08-29 15:28:29  INFO - HikariPool-1 - Starting...
+2019-08-29 15:28:30  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:28:30  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:28:30  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:28:30  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:28:30  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:28:30  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:28:31  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:28:31  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:28:31  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:28:31  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:28:31  INFO - Started ServiceApplication in 3.238 seconds (JVM running for 4.106)
+2019-08-29 15:29:53  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:29:53  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:29:53  INFO - Completed initialization in 6 ms
+2019-08-29 15:31:44  INFO - Application shutdown requested.
+2019-08-29 15:31:44  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:31:44  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:31:44  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:31:44  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:31:47  INFO - Starting ServiceApplication on WKWIN1106332 with PID 13788 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:31:47  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:31:47  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:31:47  INFO - Finished Spring Data repository scanning in 35ms. Found 1 repository interfaces.
+2019-08-29 15:31:48  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b68c5f48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:31:48  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:31:48  INFO - Starting service [Tomcat]
+2019-08-29 15:31:48  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:31:48  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:31:48  INFO - Root WebApplicationContext: initialization completed in 1144 ms
+2019-08-29 15:31:48  INFO - HikariPool-1 - Starting...
+2019-08-29 15:31:49  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:31:49  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:31:49  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:31:49  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:31:49  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:31:49  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:31:50  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:31:50  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:31:50  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:31:50  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:31:50  INFO - Started ServiceApplication in 3.448 seconds (JVM running for 4.337)
+2019-08-29 15:32:18  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:32:18  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:32:18  INFO - Completed initialization in 5 ms
+2019-08-29 15:32:18  INFO - Entered In updateUser Method  RequestCode:210  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:32:18  INFO - User object created In updateUser Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:32:21  INFO - Exiting UpdateUser Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:49:21  INFO - Application shutdown requested.
+2019-08-29 15:49:21  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:49:21  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:49:21  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:49:21  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:49:24  INFO - Starting ServiceApplication on WKWIN1106332 with PID 14552 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:49:24  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:49:25  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:49:25  INFO - Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-08-29 15:49:25  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f1d4bb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:49:25  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:49:25  INFO - Starting service [Tomcat]
+2019-08-29 15:49:25  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:49:25  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:49:25  INFO - Root WebApplicationContext: initialization completed in 1043 ms
+2019-08-29 15:49:26  INFO - HikariPool-1 - Starting...
+2019-08-29 15:49:26  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:49:26  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:49:26  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:49:26  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:49:26  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:49:26  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:49:27  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:49:27  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:49:27  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:49:27  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:49:27  INFO - Started ServiceApplication in 3.246 seconds (JVM running for 4.126)
+2019-08-29 15:49:37  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:49:37  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:49:37  INFO - Completed initialization in 7 ms
+2019-08-29 15:49:37  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:51:38  INFO - Application shutdown requested.
+2019-08-29 15:51:38  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:51:38  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:51:38  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:51:38  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:51:42  INFO - Starting ServiceApplication on WKWIN1106332 with PID 10640 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:51:42  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:51:42  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:51:42  INFO - Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-08-29 15:51:42  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fe7e7f31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:51:42  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:51:43  INFO - Starting service [Tomcat]
+2019-08-29 15:51:43  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:51:43  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:51:43  INFO - Root WebApplicationContext: initialization completed in 1025 ms
+2019-08-29 15:51:43  INFO - HikariPool-1 - Starting...
+2019-08-29 15:51:43  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:51:43  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:51:43  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:51:43  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:51:43  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:51:44  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:51:44  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:51:44  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:51:44  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:51:44  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:51:44  INFO - Started ServiceApplication in 3.16 seconds (JVM running for 4.081)
+2019-08-29 15:52:32  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:52:32  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:52:32  INFO - Completed initialization in 6 ms
+2019-08-29 15:52:32  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:53:20  INFO - Application shutdown requested.
+2019-08-29 15:53:20  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:53:20  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:53:20  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:53:20  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:53:24  INFO - Starting ServiceApplication on WKWIN1106332 with PID 21516 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:53:24  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:53:24  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:53:24  INFO - Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-08-29 15:53:25  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a2b9f29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:53:25  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:53:25  INFO - Starting service [Tomcat]
+2019-08-29 15:53:25  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:53:25  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:53:25  INFO - Root WebApplicationContext: initialization completed in 1049 ms
+2019-08-29 15:53:25  INFO - HikariPool-1 - Starting...
+2019-08-29 15:53:26  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:53:26  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:53:26  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:53:26  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:53:26  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:53:26  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:53:26  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:53:27  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:53:27  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:53:27  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:53:27  INFO - Started ServiceApplication in 3.273 seconds (JVM running for 4.169)
+2019-08-29 15:53:31  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:53:31  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:53:31  INFO - Completed initialization in 7 ms
+2019-08-29 15:53:43  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:54:25  INFO - Application shutdown requested.
+2019-08-29 15:54:25  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:54:25  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:54:25  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:54:25  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:54:29  INFO - Starting ServiceApplication on WKWIN1106332 with PID 15312 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:54:29  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:54:29  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:54:29  INFO - Finished Spring Data repository scanning in 38ms. Found 1 repository interfaces.
+2019-08-29 15:54:29  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b1427f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:54:30  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:54:30  INFO - Starting service [Tomcat]
+2019-08-29 15:54:30  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:54:30  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:54:30  INFO - Root WebApplicationContext: initialization completed in 1117 ms
+2019-08-29 15:54:30  INFO - HikariPool-1 - Starting...
+2019-08-29 15:54:30  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:54:31  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:54:31  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:54:31  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:54:31  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:54:31  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:54:31  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:54:32  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:54:32  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:54:32  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:54:32  INFO - Started ServiceApplication in 3.295 seconds (JVM running for 4.206)
+2019-08-29 15:54:39  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:54:39  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:54:39  INFO - Completed initialization in 6 ms
+2019-08-29 15:54:40  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:55:50  INFO - Application shutdown requested.
+2019-08-29 15:55:50  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:55:50  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:55:50  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:55:50  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:55:53  INFO - Starting ServiceApplication on WKWIN1106332 with PID 3404 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:55:53  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:55:54  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:55:54  INFO - Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-08-29 15:55:54  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b8f09e7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:55:54  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:55:54  INFO - Starting service [Tomcat]
+2019-08-29 15:55:54  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:55:54  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:55:54  INFO - Root WebApplicationContext: initialization completed in 1032 ms
+2019-08-29 15:55:54  INFO - HikariPool-1 - Starting...
+2019-08-29 15:55:55  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:55:55  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:55:55  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:55:55  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:55:55  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:55:55  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:55:56  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:55:56  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:55:56  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:55:56  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:55:56  INFO - Started ServiceApplication in 3.234 seconds (JVM running for 4.125)
+2019-08-29 15:56:07  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:56:07  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:56:07  INFO - Completed initialization in 5 ms
+2019-08-29 15:56:07  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:57:40  INFO - Application shutdown requested.
+2019-08-29 15:57:40  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:57:40  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:57:40  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:57:40  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:57:44  INFO - Starting ServiceApplication on WKWIN1106332 with PID 14132 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:57:44  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:57:44  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:57:44  INFO - Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-08-29 15:57:44  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$533e1c5b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:57:45  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:57:45  INFO - Starting service [Tomcat]
+2019-08-29 15:57:45  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:57:45  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:57:45  INFO - Root WebApplicationContext: initialization completed in 1051 ms
+2019-08-29 15:57:45  INFO - HikariPool-1 - Starting...
+2019-08-29 15:57:45  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:57:45  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:57:45  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:57:45  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:57:46  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:57:46  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:57:46  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:57:46  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:57:46  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:57:47  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:57:47  INFO - Started ServiceApplication in 3.257 seconds (JVM running for 4.206)
+2019-08-29 15:57:55  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:57:55  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:57:55  INFO - Completed initialization in 6 ms
+2019-08-29 15:57:55  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:58:40  INFO - Application shutdown requested.
+2019-08-29 15:58:40  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:58:40  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:58:40  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:58:40  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:58:44  INFO - Starting ServiceApplication on WKWIN1106332 with PID 20772 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:58:44  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:58:44  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:58:44  INFO - Finished Spring Data repository scanning in 43ms. Found 1 repository interfaces.
+2019-08-29 15:58:45  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$289ce9e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:58:45  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:58:45  INFO - Starting service [Tomcat]
+2019-08-29 15:58:45  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:58:45  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:58:45  INFO - Root WebApplicationContext: initialization completed in 1100 ms
+2019-08-29 15:58:45  INFO - HikariPool-1 - Starting...
+2019-08-29 15:58:46  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:58:46  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:58:46  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:58:46  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:58:46  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:58:46  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:58:46  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:58:47  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:58:47  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:58:47  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:58:47  INFO - Started ServiceApplication in 3.259 seconds (JVM running for 4.132)
+2019-08-29 15:58:52  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:58:52  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:58:52  INFO - Completed initialization in 5 ms
+2019-08-29 15:58:52  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 15:59:30  INFO - Application shutdown requested.
+2019-08-29 15:59:30  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:59:30  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:59:30  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 15:59:30  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 15:59:33  INFO - Starting ServiceApplication on WKWIN1106332 with PID 11448 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 15:59:33  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 15:59:33  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 15:59:33  INFO - Finished Spring Data repository scanning in 35ms. Found 1 repository interfaces.
+2019-08-29 15:59:34  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da6189f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 15:59:34  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 15:59:34  INFO - Starting service [Tomcat]
+2019-08-29 15:59:34  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 15:59:34  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 15:59:34  INFO - Root WebApplicationContext: initialization completed in 1039 ms
+2019-08-29 15:59:34  INFO - HikariPool-1 - Starting...
+2019-08-29 15:59:35  INFO - HikariPool-1 - Start completed.
+2019-08-29 15:59:35  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 15:59:35  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 15:59:35  INFO - HHH000206: hibernate.properties not found
+2019-08-29 15:59:35  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 15:59:35  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 15:59:35  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 15:59:36  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 15:59:36  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 15:59:36  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 15:59:36  INFO - Started ServiceApplication in 3.198 seconds (JVM running for 4.096)
+2019-08-29 15:59:42  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 15:59:42  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 15:59:42  INFO - Completed initialization in 5 ms
+2019-08-29 15:59:42  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 16:01:52  INFO - Application shutdown requested.
+2019-08-29 16:01:52  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 16:01:52  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 16:01:52  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 16:01:52  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 16:01:56  INFO - Starting ServiceApplication on WKWIN1106332 with PID 21656 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 16:01:56  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 16:01:56  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 16:01:56  INFO - Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2019-08-29 16:01:56  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e56f7e35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 16:01:57  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 16:01:57  INFO - Starting service [Tomcat]
+2019-08-29 16:01:57  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 16:01:57  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 16:01:57  INFO - Root WebApplicationContext: initialization completed in 1039 ms
+2019-08-29 16:01:57  INFO - HikariPool-1 - Starting...
+2019-08-29 16:01:58  INFO - HikariPool-1 - Start completed.
+2019-08-29 16:01:58  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 16:01:58  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 16:01:58  INFO - HHH000206: hibernate.properties not found
+2019-08-29 16:01:58  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 16:01:58  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 16:01:58  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 16:01:59  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 16:01:59  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 16:01:59  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 16:01:59  INFO - Started ServiceApplication in 3.232 seconds (JVM running for 4.1)
+2019-08-29 16:04:58  INFO - Application shutdown requested.
+2019-08-29 16:04:58  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 16:04:58  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 16:04:58  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 16:04:58  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 16:21:49  INFO - Starting ServiceApplication on WKWIN1106332 with PID 1444 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 16:21:49  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 16:21:50  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 16:21:50  INFO - Finished Spring Data repository scanning in 33ms. Found 1 repository interfaces.
+2019-08-29 16:21:50  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$edcea813] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 16:21:50  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 16:21:50  INFO - Starting service [Tomcat]
+2019-08-29 16:21:50  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 16:21:50  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 16:21:50  INFO - Root WebApplicationContext: initialization completed in 1085 ms
+2019-08-29 16:21:50  INFO - HikariPool-1 - Starting...
+2019-08-29 16:21:51  INFO - HikariPool-1 - Start completed.
+2019-08-29 16:21:51  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 16:21:51  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 16:21:51  INFO - HHH000206: hibernate.properties not found
+2019-08-29 16:21:51  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 16:21:51  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 16:21:52  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 16:21:52  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 16:21:52  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 16:21:52  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 16:21:52  INFO - Started ServiceApplication in 3.23 seconds (JVM running for 4.108)
+2019-08-29 16:22:03  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 16:22:03  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 16:22:03  INFO - Completed initialization in 7 ms
+2019-08-29 16:22:03  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 16:34:50  INFO - Application shutdown requested.
+2019-08-29 16:34:50  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 16:34:50  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 16:34:50  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 16:34:50  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 16:34:54  INFO - Starting ServiceApplication on WKWIN1106332 with PID 11824 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 16:34:54  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 16:34:54  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 16:34:54  INFO - Finished Spring Data repository scanning in 35ms. Found 1 repository interfaces.
+2019-08-29 16:34:54  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$848cee2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 16:34:54  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 16:34:55  INFO - Starting service [Tomcat]
+2019-08-29 16:34:55  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 16:34:55  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 16:34:55  INFO - Root WebApplicationContext: initialization completed in 1038 ms
+2019-08-29 16:34:55  INFO - HikariPool-1 - Starting...
+2019-08-29 16:34:55  INFO - HikariPool-1 - Start completed.
+2019-08-29 16:34:55  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 16:34:55  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 16:34:55  INFO - HHH000206: hibernate.properties not found
+2019-08-29 16:34:55  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 16:34:56  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 16:34:56  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 16:34:56  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 16:34:56  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 16:34:56  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 16:34:56  INFO - Started ServiceApplication in 3.157 seconds (JVM running for 4.022)
+2019-08-29 16:35:18  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 16:35:18  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 16:35:18  INFO - Completed initialization in 5 ms
+2019-08-29 16:35:19  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 16:37:26  INFO - Application shutdown requested.
+2019-08-29 16:37:26  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 16:37:26  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 16:37:26  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 16:37:26  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 16:37:29  INFO - Starting ServiceApplication on WKWIN1106332 with PID 6716 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 16:37:29  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 16:37:30  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 16:37:30  INFO - Finished Spring Data repository scanning in 35ms. Found 1 repository interfaces.
+2019-08-29 16:37:30  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8f552f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 16:37:30  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 16:37:30  INFO - Starting service [Tomcat]
+2019-08-29 16:37:30  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 16:37:30  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 16:37:30  INFO - Root WebApplicationContext: initialization completed in 1052 ms
+2019-08-29 16:37:30  INFO - HikariPool-1 - Starting...
+2019-08-29 16:37:31  INFO - HikariPool-1 - Start completed.
+2019-08-29 16:37:31  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 16:37:31  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 16:37:31  INFO - HHH000206: hibernate.properties not found
+2019-08-29 16:37:31  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 16:37:31  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 16:37:32  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 16:37:32  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 16:37:32  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 16:37:32  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 16:37:32  INFO - Started ServiceApplication in 3.245 seconds (JVM running for 4.121)
+2019-08-29 16:38:00  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 16:38:00  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 16:38:00  INFO - Completed initialization in 5 ms
+2019-08-29 16:38:00  INFO - Entered In sendOtp Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 16:39:04  INFO - Entered In updateUser Method  RequestCode:210  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 16:39:04  INFO - User object created In updateUser Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 16:39:05  INFO - Exiting UpdateUser Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:POST  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 17:08:17  INFO - Application shutdown requested.
+2019-08-29 17:08:17  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 17:08:17  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 17:08:17  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 17:08:17  INFO - HikariPool-1 - Shutdown completed.
+2019-08-29 17:08:20  INFO - Starting ServiceApplication on WKWIN1106332 with PID 20572 (C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend\target\classes started by maigadwe in C:\Users\maigadwe\Documents\bitBucket\loginportal\Edit_Profile_Backend)
+2019-08-29 17:08:20  INFO - No active profile set, falling back to default profiles: default
+2019-08-29 17:08:21  INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 17:08:21  INFO - Finished Spring Data repository scanning in 53ms. Found 1 repository interfaces.
+2019-08-29 17:08:21  INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7e55e39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 17:08:22  INFO - Tomcat initialized with port(s): 8018 (http)
+2019-08-29 17:08:22  INFO - Starting service [Tomcat]
+2019-08-29 17:08:22  INFO - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-29 17:08:22  INFO - Initializing Spring embedded WebApplicationContext
+2019-08-29 17:08:22  INFO - Root WebApplicationContext: initialization completed in 1421 ms
+2019-08-29 17:08:22  INFO - HikariPool-1 - Starting...
+2019-08-29 17:08:23  INFO - HikariPool-1 - Start completed.
+2019-08-29 17:08:23  INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-29 17:08:23  INFO - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-29 17:08:23  INFO - HHH000206: hibernate.properties not found
+2019-08-29 17:08:23  INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-29 17:08:23  INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-29 17:08:24  INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 17:08:24  INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-29 17:08:24  WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-29 17:08:24  INFO - Tomcat started on port(s): 8018 (http) with context path ''
+2019-08-29 17:08:24  INFO - Started ServiceApplication in 4.342 seconds (JVM running for 5.381)
+2019-08-29 17:08:50  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-29 17:08:50  INFO - Initializing Servlet 'dispatcherServlet'
+2019-08-29 17:08:50  INFO - Completed initialization in 9 ms
+2019-08-29 17:08:51  INFO - Entered In FindById Method  RequestCode:209  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodEntryTrace(UserLogs.java:22)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 17:08:51  INFO - User object created In FindById Method  ResponseCode:201  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logInfo(UserLogs.java:35)  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 17:08:51  INFO - Exiting FindById Method  ResponseCode:213  UserID:4  Role:user  Class&Function:com.utils.logging.UserLogs.logMethodExitTrace(UserLogs.java:27)  RequestType:GET  IPaddress:199.200.999.000  DeviceDetails:HP Envy 360
+2019-08-29 19:25:42  WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m19s7ms16µs400ns).
+2019-08-29 19:47:39  INFO - Application shutdown requested.
+2019-08-29 19:47:39  INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-29 19:47:39  INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 19:47:39  INFO - HikariPool-1 - Shutdown initiated...
+2019-08-29 19:47:39  INFO - HikariPool-1 - Shutdown completed.

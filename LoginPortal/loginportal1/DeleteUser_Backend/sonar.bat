@@ -1,0 +1,1 @@
+mvn sonar:sonar \ -Dsonar.projectKey=deleteuser \ -Dsonar.host.url=http://localhost:9000 \ -Dsonar.login=53d6955a201181f1bc0c8d9f0fe37dcd9dab847f
